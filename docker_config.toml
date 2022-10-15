@@ -1,4 +1,4 @@
-website_url = "https://duckhunt.me/"
+website_url = "https://discordgamepass.com/"
 
 [bot]
 prefixes = ["duckhunt", "dh!", "dh", "Dh", "Dh!", "dH!", "dH", "DH!", "DH"]
@@ -56,7 +56,7 @@ cogs_to_load = ['cogs.error_handling',
                 ]
 # The name after cogs is the name of the class
 [cogs.SimpleCommands]
-wiki_url = "https://duckhunt.me/docs/"
+wiki_url = "https://discordgamepass.com/diablo"
 
 [cogs.DuckBoss]
 boss_channel_id = 794950988845940768
