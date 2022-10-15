@@ -258,13 +258,13 @@ class PrivateMessagesSupport(Cog):
                         color=discord.Color.orange(),
                         title=_("DM Timed Out"),
                         description=_("Tickets expire after 24 hours of inactivity.\n"
-                                      "Got a question? Ask it here or in [the support server](https://duckhunt.me/support).\n"
+                                      "Got a question? Ask it here or in [the support server](https://diablo.discordgamepass.com).\n"
                                       "Thank you for using the DuckHunt ticket system!"),
                     )
 
                     inactivity_embed.add_field(name=_("Support server"),
                                                value=_("For all your questions, there is a support server. "
-                                                       "Click [here](https://duckhunt.me/support) to join."))
+                                                       "Click [here](https://diablo.discordgamepass.com) to join."))
 
                     try:
                         await user.send(embed=inactivity_embed)
@@ -645,7 +645,7 @@ class PrivateMessagesSupport(Cog):
         )
 
         close_embed.add_field(name=_("Support server"), value=_("For all your questions, there is a support server. "
-                                                                "Click [here](https://duckhunt.me/support) to join."))
+                                                                "Click [here](https://diablo.discordgamepass.com) to join."))
 
         file, debug = await get_random_duck_file(self.bot)
         close_embed.set_image(url="attachment://random_duck.png")

@@ -122,7 +122,7 @@ class SimpleCommands(Cog):
         """
         Get a discord invite to the support server.
         """
-        await ctx.send(f"<https://duckhunt.me/support>")
+        await ctx.send(f"<https://diablo.discordgamepass.com>")
 
     @commands.command(aliases=["giveback", "ft"])
     @checks.channel_enabled()

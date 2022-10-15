@@ -44,7 +44,7 @@ class ButtonsHelp:
                               "This is a help command designed to let you find all the commands in the bot.\n"
                               "However, it's *not* the best way to get started with it. I suggest reading the wiki instead, "
                               "here's [a link](https://duckhunt.me/docs).\n"
-                              "If you have questions, you can DM the bot, or join the [support server](https://duckhunt.me/support).\n"
+                              "If you have questions, you can DM the bot, or join the [support server](https://diablo.discordgamepass.com).\n"
                               "Thanks for playing.")
 
         embed.set_footer(text=_('Use {prefix}{help} [command] for more info on a command.', prefix="dh!", help=self.invoked_with))

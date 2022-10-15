@@ -155,7 +155,7 @@ class MyBot(AutoShardedBot):
                       "Your scores and channel leaderboards are available online (click the title in `dh!me` after playing for a while), and on Discord."
                       "If you want to learn more about the game, use the wiki! <{wiki_link}>\n"
                       "We also monitor the bot DMs, so if you have further questions, just answer this message!",
-                      support_server_link=_("https://duckhunt.me/support"),
+                      support_server_link=_("https://diablo.discordgamepass.com"),
                       wiki_link=_("https://duckhunt.me/docs/players-guide/players-quickstart"),
                       ))
             except discord.Forbidden:

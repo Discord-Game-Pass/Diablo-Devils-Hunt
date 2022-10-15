@@ -533,12 +533,12 @@ class StatisticsCommands(Cog):
                             await ctx.send(
                                 _("❌ The channel used to exist but on a different server. I can't confirm you have the "
                                   "correct rights on that server. Please use this command in the right server, or contact "
-                                  "support : <https://duckhunt.me/support>."))
+                                  "support : <https://diablo.discordgamepass.com>."))
                             return
                     else:
                         await ctx.send(
                             _("❌ I can't find a channel with that ID. Please check the given ID, or contact "
-                              "support : <https://duckhunt.me/support>."))
+                              "support : <https://diablo.discordgamepass.com>."))
                         return
 
                 db_channel = maybe_db_channel
