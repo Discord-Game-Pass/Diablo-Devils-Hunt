@@ -1,4 +1,4 @@
-# DuckHunt, the discord bot
+# Diablo IV: Devil's Hunt - A Game Pass Original
 
 [![Discord Game Pass](https://i.imgur.com/xBbvDrx.png)](https://diablo.discordgamepass.com)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/DuckHunt-discord/DHV4) 
