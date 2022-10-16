@@ -19,7 +19,7 @@ database = "duckhunt"
 
 [duckhunt_public_log]
 server_id = 1013868971549794415
-channel_id = 1031014591511154738
+channel_id = 1019418685548531772
 
 [auth.discord]
 # Your bot token. You can find it on the Bot page of the Developper portal
@@ -73,7 +73,7 @@ status_channel_id = 1031023854753153024
 
 [cogs.Community]
 servers = [1013868971549794415]
-rpg_role_name = "Huner License"
+rpg_role_name = "Hunter License"
 moderators_that_can_delete_with_reactions = [1015526330814697542]
 
 [cogs.PrivateMessagesSupport]
