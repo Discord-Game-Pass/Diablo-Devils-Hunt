@@ -21,7 +21,7 @@ Duckhunt have many features:
 - Easy to [understand](https://duckhunt.me/docs/), and really addictive
 - Uses webhooks to provide your server with realistic ducks
 
-![Archangel Tyreal](https://i.imgur.com/GCBmckI.png)
+![Archangel Tyreal](https://i.imgur.com/TpLfFs2.png)
 
 **Please read the wiki for instructions on how to setup the bot** [click here](https://duckhunt.me/docs/bot-administration/admin-quickstart)
 
