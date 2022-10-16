@@ -9,11 +9,11 @@
 
 ## Game description
 
-[DuckHunt V4](https://duckhunt.me) is a Discord bot inspired by MenzAgitat IRC bot of the same name. 
+[Diablo IV: Devil's Hunt](https://diablo.discordgameepass.com) is a Discord minigame inspired by the Diablo franchise. 
 
-Sometimes, a duck appears on a channel and players must kill it as fast as possible. 
-Duckhunt have many features:
-- Multilingual: Duckhunt is available in English, French, Hungarian, Spanish and more
+Sometimes, a demon appears on a channel and players must kill it as fast as possible. 
+Diablo has many features:
+- Dozens of demons from seven different classifications, including Furies, Calamities, and even Nightmares that only come out at night.
 - A lot of [settings](https://duckhunt.me/docs/bot-administration/edit-settings-settings-list) can be applied to the bot 
 - 40+ [levels](https://duckhunt.me/docs/players-guide/levels-and-experience) with different titles, weapons, benefits...
 - A [complete shop](https://duckhunt.me/commands/shop) with more than 25 items available using experience points 
