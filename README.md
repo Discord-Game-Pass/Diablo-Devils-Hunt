@@ -5,7 +5,7 @@
 
 #### Demons are spawning and the Lords of Hell are coming. Can you protect our server?
 
-![The game](https://duckhunt.me/docs/.gitbook/assets/golden_duck_calgeka.png)
+![The game](https://i.imgur.com/izgOHSk.png)
 
 ## Game description
 
