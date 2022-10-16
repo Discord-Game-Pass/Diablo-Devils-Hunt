@@ -69,7 +69,7 @@ role_ping_id = 1031013477969563688
 # That's the ID of your server where the command will be ran
 support_server_id = 1013868971549794415
 # ID of an empty channel that will be used as a status dashboard.
-status_channel_id = 1031021037787287652
+status_channel_id = 1031023854753153024
 
 [cogs.Community]
 servers = [1013868971549794415]
