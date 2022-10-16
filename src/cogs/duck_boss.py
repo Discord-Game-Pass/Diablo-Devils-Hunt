@@ -41,8 +41,8 @@ class DuckBoss(Cog):
         boss_life = self.config()['required_bangs']
 
         new_embed = discord.Embed(
-            title=random.choice(["A duck boss is here...", "A wild boss has appeared...", "A boss has spawned...", "KILL THE BOSS !",
-                                 "Who wants some foie gras ?", "There is a Duck Boss nearby...", "You cannot sleep when enemies are nearby."]),
+            title=random.choice(["A devil is here...", "A devil appeared...", "Lucifer has spawned...", "KILL THE DEVIL !",
+                                 "All hail the Lord of Hatred", "The Lord of Destruction is among us", "The Lord of Terror has arrived", "Hark! The Lord of Pain is here", "The Maiden of Anguish is upon us", "Destroy the Lord of Lies", "Send the Lord of Sin back to Hell", "At last the devil has shown himself", "The Devil has finally revealed itself", "Prove your worth and banish this devil", "The time has come to battle the Devil himself", "Lets see what you are made of...", "The Devil has entered the chat", "...And the Heavens shall tremble marking his arrival...", "Have faith for its time to kill the Devil", "Finally a worthy adversary...", "Have no mercy on this fool", "HE has arrived"]),
             color=discord.Color.green(),
             description="React with 🔫 to kill it.",
         )
@@ -52,11 +52,17 @@ class DuckBoss(Cog):
             time_delta = timezone.now() - boss_message.created_at
             old_embed = boss_message.embeds[0]
             new_embed.set_image(url=old_embed.image.url)
-            new_embed.set_footer(text=f"The boss spawned {format_timedelta(time_delta, locale='en_US')} ago")
+            new_embed.set_footer(text=f"The Devil spawned {format_timedelta(time_delta, locale='en_US')} ago")
         else:
-            new_embed.set_image(url=random.choice(["https://media.discordapp.net/attachments/795225915248214036/795404123443953705/boss_Calgeka.png",
-                                                   "https://media.discordapp.net/attachments/795225915248214036/873971254888108092/boss_llama_Calgeka.png"]))
-            new_embed.set_footer(text="The boss just spawned")
+            new_embed.set_image(url=random.choice(["https://i.imgur.com/zZLcNhH.jpg",
+                                                   "https://i.imgur.com/TtbHsYk.jpg",
+                                                   "https://i.imgur.com/IwqsEl3.jpg",
+                                                   "https://i.imgur.com/b1Mm3nY.jpg",
+                                                   "https://i.imgur.com/YYP19oj.jpg",
+                                                   "https://i.imgur.com/3v0h5pQ.jpg",
+                                                   "https://i.imgur.com/R0LOR9l.jpg",
+                                                   "https://i.imgur.com/nhqV5Kp.png"]))
+            new_embed.set_footer(text="A devil just spawned")
 
         return new_embed
 
@@ -98,20 +104,20 @@ class DuckBoss(Cog):
                     await discorduser.save(update_fields=['boss_kills'])
 
                 new_embed = discord.Embed(
-                    title=random.choice(["The boss was defeated !"]),
+                    title=random.choice(["The Devil was defeated !"]),
                     color=discord.Color.red(),
-                    description=f"Thanks to the {bangs} players who helped in this quest. Check your inventories with `dh!inv` for these drops.",
+                    description=f"Praise the {bangs} players who helped in this battle. Check your inventories with `dh!inv` for these drops.",
                 )
-                if "boss_llama_Calgeka.png" in str(boss_message.embeds[0].image.url):
+                if "nhqV5Kp.png" in str(boss_message.embeds[0].image.url):
                     # Special case the llama.
-                    new_embed.set_image(url="https://cdn.discordapp.com/attachments/795225915248214036/875072800866586654/deadboss_llama_Calgeka.png")
+                    new_embed.set_image(url="https://i.imgur.com/8OkElP1.jpg")
                 else:
-                    new_embed.set_image(url=random.choice(["https://cdn.discordapp.com/attachments/795225915248214036/807309301181055056/deadboss_Calgeka.png",
-                                                           "https://cdn.discordapp.com/attachments/795225915248214036/807309304935219230/deadboss_alt1_Calgeka.png"]))
+                    new_embed.set_image(url=random.choice(["https://i.imgur.com/wS58q8G.jpg",
+                                                           "https://i.imgur.com/5FfDSkt.jpg"]))
                 new_embed.add_field(name="Health", value=f"0/{boss_life}")
 
                 time_delta = timezone.now() - boss_message.created_at
-                new_embed.set_footer(text=f"The boss lived for {format_timedelta(time_delta, locale='en_US')}.")
+                new_embed.set_footer(text=f"The Devil lived for {format_timedelta(time_delta, locale='en_US')}.")
 
                 await boss_message.edit(embed=new_embed)
             else:
@@ -127,25 +133,25 @@ class DuckBoss(Cog):
                 self.iterations_no_spawn += 1
 
     async def spawn_boss(self):
-        self.bot.logger.info("Spawning duck boss...")
+        self.bot.logger.info("Spawning the Devil...")
         channel = self.bot.get_channel(self.config()['boss_channel_id'])
 
         boss_message = await channel.send(embed=await self.create_boss_embed(), )
         await boss_message.add_reaction("🔫")
-        self.bot.logger.debug("Duck boss spawned, logging that to the channel logs...")
+        self.bot.logger.debug("A Devil has spawned, logging that to the channel logs...")
 
         ping_role_id = self.config()['role_ping_id']
 
         log_embed = discord.Embed(
-            title="A duck boss has spawned.",
+            title="A Devil has spawned in the server.",
             color=discord.Color.dark_magenta(),
-            description=f"Go in the {channel.mention} and click the 🔫 reaction to get free inventory items."
+            description=f"Go in the {channel.mention} and click the 🔫 reaction to banish it back to Hell and claim free inventory items."
         )
 
         log_embed.add_field(name="Subscribe/Unsubscribe", value="To (un)subscribe from these alerts, go to the #roles•for•all channel.")
 
         await self.bot.log_to_channel(content=f"<@&{ping_role_id}>", embed=log_embed, allowed_mentions=discord.AllowedMentions(roles=True, users=False, everyone=False))
-        self.bot.logger.info("Duck boss spawned, logging message sent!")
+        self.bot.logger.info("Devil spawned, logging message sent!")
 
     @background_loop.before_loop
     async def before(self):

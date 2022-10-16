@@ -54,7 +54,7 @@ class DucksSpawning(Cog):
             elif delay >= 5:
                 self.bot.logger.warning(f"Loop running with severe delays ({delay} seconds)!")
 
-            self.bot.logger.debug(f"Ducks spawning loop : [{int(current_iteration)}/{int(now)}]")
+            self.bot.logger.debug(f"Demon spawning loop : [{int(current_iteration)}/{int(now)}]")
 
             # Loop part
             try:
@@ -95,7 +95,7 @@ class DucksSpawning(Cog):
                         ducks_spawned += 1
 
                 if ducks_spawned > 20:
-                    self.bot.logger.warning(f"Tried to make more than {ducks_spawned} ducks spawn at once, "
+                    self.bot.logger.warning(f"Tried to make more than {ducks_spawned} demons spawn at once, "
                                             f"stopping there to protect rate limits...")
                     break
 
@@ -103,7 +103,7 @@ class DucksSpawning(Cog):
 
             if end_spawning-start_spawning > 0.7:
                 duration = round(end_spawning-start_spawning, 2)
-                self.bot.logger.error(f"Spawning {ducks_spawned} ducks took more than {duration} seconds...")
+                self.bot.logger.error(f"Spawning {ducks_spawned} demons took more than {duration} seconds...")
 
         start_leaving = time()
         total_leaves = 0
@@ -116,7 +116,7 @@ class DucksSpawning(Cog):
                     total_leaves += 1
 
             if total_leaves > 25:
-                self.bot.logger.warning(f"Tried to make more than {total_leaves} ducks leave at once, "
+                self.bot.logger.warning(f"Tried to make more than {total_leaves} demons leave at once, "
                                         f"stopping there to protect rate limits...")
                 break
 
@@ -124,7 +124,7 @@ class DucksSpawning(Cog):
 
         if end_leaving-start_leaving > 0.7:
             duration = round(end_leaving - start_leaving, 2)
-            self.bot.logger.error(f"Leaving {total_leaves} ducks took more than {duration} seconds...")
+            self.bot.logger.error(f"Leaving {total_leaves} demons took more than {duration} seconds...")
 
         CURRENT_PLANNED_DAY = now - (now % DAY)
         if CURRENT_PLANNED_DAY != self.last_planned_day:
@@ -148,7 +148,7 @@ class DucksSpawning(Cog):
     def cog_unload(self):
         self.background_loop.cancel()
 
-        self.bot.logger.info(f"Saving ducks to cache...")
+        self.bot.logger.info(f"Teleporting demons to limbo...")
 
         ducks_spawned = self.bot.ducks_spawned
 
@@ -178,7 +178,7 @@ class DucksSpawning(Cog):
 
         db_channels = await get_enabled_channels()
 
-        self.bot.logger.debug(f"Planifying ducks spawns on {len(db_channels)} channels")
+        self.bot.logger.debug(f"Divining demon spawns on {len(db_channels)} channels")
 
         channels_to_disable = []
 
@@ -191,7 +191,7 @@ class DucksSpawning(Cog):
 
             if i % 100 == 0:
                 await asyncio.sleep(0)
-                self.bot.logger.debug(f"Planifying ducks spawns on {i}/{len(db_channels)} channels")
+                self.bot.logger.debug(f"Divining demon spawns on {i}/{len(db_channels)} channels")
 
             if channel:
                 self.bot.enabled_channels[channel] = await DucksLeft(channel).compute_ducks_count(db_channel, now)
@@ -220,7 +220,7 @@ class DucksSpawning(Cog):
             self.bot.logger.debug(f"All the channels are available :)")
 
     async def before(self):
-        self.bot.logger.info(f"Waiting for ready-ness to planify duck spawns...")
+        self.bot.logger.info(f"Waiting for ready-ness to divine demon spawns...")
 
         await self.bot.wait_until_ready()
         # Wait 5 seconds because discord.py can send the ready event a little bit too early
@@ -228,7 +228,7 @@ class DucksSpawning(Cog):
         # Then try again to make sure we are still good.
         await self.bot.wait_until_ready()
 
-        self.bot.logger.info(f"Restoring ducks from cache...")
+        self.bot.logger.info(f"Restoring demons from limbo...")
 
         ducks_count = 0
         try:
@@ -242,7 +242,7 @@ class DucksSpawning(Cog):
 
         self.bot.logger.debug(f"Building channels hash table for fast-access...")
         channels = {c.id: c for c in self.bot.get_all_channels()}
-        self.bot.logger.debug(f"Hash table built, restoring ducks...")
+        self.bot.logger.debug(f"Hash table built, restoring demons...")
 
         for channel_id, ducks in serialized.items():
             channel = channels.get(int(channel_id), None)
@@ -253,23 +253,23 @@ class DucksSpawning(Cog):
                     duck = deserialize_duck(self.bot, channel, data)
                     await duck.spawn(loud=False)
 
-        self.bot.logger.info(f"{ducks_count} ducks restored!")
+        self.bot.logger.info(f"{ducks_count} demons restored!")
 
         await asyncio.sleep(1)
 
-        self.bot.logger.info(f"Planifying ducks spawns for the rest of the day")
+        self.bot.logger.info(f"Divining when demons will spawn today")
 
         await self.planify()
 
         embed = discord.Embed()
 
         embed.colour = discord.Colour.dark_green()
-        embed.title = f"Bot restarted"
-        embed.description = f"The bot restarted and is now ready to spawn ducks. Get your rifles out!"
+        embed.title = f"Calling all hunters"
+        embed.description = f"The Guild has convened. Demons will be spawning so get your rifles out!"
         embed.add_field(name="Statistics", value=f"{len(self.bot.guilds)} servers, "
                                                  f"{len(self.bot.enabled_channels)} channels")
         embed.add_field(name="Help and support", value="https://diablo.discordgamepass.com")
-        embed.set_footer(text="Ducks that were on the channel previously should have been restored, and can be killed.")
+        embed.set_footer(text="Demons that were on the channel previously should have been restored, and can be killed.")
         await self.bot.log_to_channel(embed=embed)
 
         self.bot.logger.info(f"Restoring an event for the rest of the hour")
@@ -290,7 +290,7 @@ class DucksSpawning(Cog):
         game = discord.Game(self.bot.current_event.value[0])
         await self.bot.change_presence(status=discord.Status.online, activity=game)
 
-        self.bot.logger.info(f"Ducks spawning started")
+        self.bot.logger.info(f"Demon spawning commenced")
 
     async def calculate_ducks_per_day(self, db_channel: DiscordChannel, now: int):
         # TODO : Compute ducks sleep
