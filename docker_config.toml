@@ -1,4 +1,4 @@
-website_url = "https://discordgamepass.com/"
+website_url = "https://diablo.discordgamepass.com/"
 
 [bot]
 prefixes = ["dh!", "dh", "Dh", "Dh!", "dH!", "dH", "DH!", "DH"]
@@ -19,7 +19,7 @@ database = ""
 
 [duckhunt_public_log]
 server_id = 1013868971549794415
-channel_id = 1016854290519834694
+channel_id = 1031014591511154738
 
 [auth.discord]
 # Your bot token. You can find it on the Bot page of the Developper portal
@@ -56,27 +56,27 @@ cogs_to_load = ['cogs.error_handling',
                 ]
 # The name after cogs is the name of the class
 [cogs.SimpleCommands]
-wiki_url = "https://discordgamepass.com/diablo"
+wiki_url = "https://diablo.discordgamepass.com"
 
 [cogs.DuckBoss]
-boss_channel_id = 1030877035146526730
+boss_channel_id = 1031014088010113084
 required_bangs = 40
-role_ping_id = 1015526330814697542
+role_ping_id = 1031013477969563688
 
 
 [cogs.SupportServerCommands]
 # That's the ID of your server where the command will be ran
 support_server_id = 1013868971549794415
 # ID of an empty channel that will be used as a status dashboard.
-status_channel_id = 795389911163338775
+status_channel_id = 1016854290519834694
 
 [cogs.Community]
 servers = [1013868971549794415]
-rpg_role_name = "Upper Echelon"
+rpg_role_name = "Huner License"
 moderators_that_can_delete_with_reactions = [1015526330814697542]
 
 [cogs.PrivateMessagesSupport]
-forwarding_category = 821732328018935818
+forwarding_category = 1016854290519834694
 
 [cogs.RestAPI]
 listen_ip = "0.0.0.0"
@@ -88,7 +88,7 @@ global_access_keys = []
 
 [cogs.Tags]
 allowed_in_guilds = [
-    1013868971549794415, # Game Pass Support Server
+    1013868971549794415, # Discord Game Pass
 ]
 
 [cogs.BotsListVoting]

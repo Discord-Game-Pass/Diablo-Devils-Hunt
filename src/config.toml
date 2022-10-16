@@ -1,9 +1,9 @@
-website_url = "https://duckhunt.me/"
+website_url = "https://diablo.discordgamepass.com"
 
 [bot]
 prefixes = ["beta", "b!", "b", "B"]
-description = """Discord Version 4 of DuckHunt, the popular game bot"""
-playing = "Ducks are everywhere"
+description = """Diablo Devils Hunt - A Game Pass Original"""
+playing = "Devils are everywhere"
 commands_are_case_insensitive = true
 
 [database]
@@ -18,8 +18,8 @@ password = "duckhunt"
 database = "duckhunt"
 
 [duckhunt_public_log]
-server_id = 734810932529856652
-channel_id = 851554104710922240
+server_id = 1013868971549794415
+channel_id = 1031014591511154738
 
 [auth.discord]
 # Your bot token. You can find it on the Bot page of the Developper portal
@@ -58,26 +58,26 @@ cogs_to_load = ['cogs.error_handling',
 
 # The name after cogs is the name of the class
 [cogs.SimpleCommands]
-wiki_url = "https://duckhunt.me/docs/"
+wiki_url = "https://diablo.discordgamepass.com"
 
 [cogs.DuckBoss]
-boss_channel_id = 851554201104547901
+boss_channel_id = 1031014088010113084
 required_bangs = 40
-role_ping_id = 803708518716014652
+role_ping_id = 1031013477969563688
 
 [cogs.SupportServerCommands]
 # That's the ID of your server where the command will be ran
-support_server_id = 734810932529856652
+support_server_id = 1013868971549794415
 # ID of an empty channel that will be used as a status dashboard.
-status_channel_id = 851554104710922240
+status_channel_id = 1016854290519834694
 
 [cogs.Community]
-servers = [734810932529856652]
-rpg_role_name = "Ping me for RPG bot events"
-moderators_that_can_delete_with_reactions = [251996890369884161]
+servers = [1013868971549794415]
+rpg_role_name = "Huner License"
+moderators_that_can_delete_with_reactions = [1015526330814697542]
 
 [cogs.PrivateMessagesSupport]
-forwarding_category = 851553794826698792
+forwarding_category = 1016854290519834694
 
 [cogs.RestAPI]
 listen_ip = "127.0.0.1"
@@ -91,7 +91,7 @@ global_access_keys = [
 
 [cogs.Tags]
 allowed_in_guilds = [
-    734810932529856652, # DuckHunt Beta
+    1013868971549794415, # Discord Game Pass
 ]
 
 

@@ -252,7 +252,7 @@ class StatisticsCommands(Cog):
 
         bt = {k: str(round(v, 2)) + " s" for k, v in bt.items()}
 
-        no_kill_message = _("Never killed any")
+        no_kill_message = _("No kills yet")
 
         self.add_fields_for_every_duck(_, embed, bt, no_kill_message)
 
