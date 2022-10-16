@@ -23,21 +23,4 @@ Duckhunt have many features:
 
 ![Archangel Tyreal](https://i.imgur.com/TpLfFs2.png)
 
-**Please read the wiki for instructions on how to setup the bot** [click here](https://duckhunt.me/docs/bot-administration/admin-quickstart)
-
-## Invite
-
-[https://duckhunt.me/invite](https://duckhunt.me/invite)
-
-## Support server
-
-[https://diablo.discordgamepass.com](https://diablo.discordgamepass.com)
-
-## More information
-
-- Bot default prefix : `dh!`
-- Bot user ID : `187636089073172481`
-- Bot client ID : `187636051135823872`
-- Tags : Game, Fun, Leveling, Social, Economy, Web Dashboard, Customizable Behavior, and Roleplay
-
-![The boss](https://duckhunt.me/docs/.gitbook/assets/boss_calgeka.png)
+**Want to Play? Join Discord Game Pass and play for free** [click here](https://invite.discordgamepass.com)
