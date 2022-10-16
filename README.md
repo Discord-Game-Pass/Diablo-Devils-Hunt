@@ -25,4 +25,4 @@ Diablo has many features:
 
 ![Archangel Tyreal](https://i.imgur.com/TpLfFs2.png)
 
-**Want to Play? Join Discord Game Pass and play for free** [click here](https://invite.discordgamepass.com)
+**Diablo is now on Discord? Join Discord Game Pass and play for free** [click here](https://invite.discordgamepass.com)
