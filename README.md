@@ -1,8 +1,8 @@
 # Diablo IV: Devil's Hunt - A Game Pass Original
 
-[![Discord Game Pass](https://i.imgur.com/hIerwht.png)](https://diablo.discordgamepass.com)
+[![Discord Game Pass](https://i.imgur.com/hIerwht.png)](https://discordgamepass.com)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/DuckHunt-discord/DHV4) 
-[![Website](https://img.shields.io/website?url=https%3A%2F%2Fduckhunt.me)](https://duckhunt.me)
+[![Website](https://img.shields.io/website?url=https://discordgamepass.com)](https://discordgamepass.com)
 
 #### Ducks spawn on a Discord channel. Will you be able to kill them?
 
