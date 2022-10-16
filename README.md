@@ -17,6 +17,10 @@ Diablo has many features:
 - Fight your way through lesser demons and level up, earning rewards and prestige along the way. Prepare for the biggest battles ahead...
 - 40+ levels with different titles, weapons, benefits...
 - A complete shop with more than 25 items available using demon souls as your currency.
+- When a devil arrives in the boss arena it's your time to shine! Defeat it solo or together and earn epic rewards.
+- Fight against Diablo and all seven of the Prime Evils. Discover real demons never before used in the video games.
+- State-of-the-art stats system. Track your progress, growth, the number of demons you've killed, your rank and much, much more.
+- Purchase a Hunter's License to receive notifications on when demons spawn and special events take place that change the game!
 
 
 ![Archangel Tyreal](https://i.imgur.com/TpLfFs2.png)
