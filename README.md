@@ -1,6 +1,6 @@
 # DuckHunt, the discord bot
 
-[![Discord](https://img.shields.io/discord/195260081036591104)](https://diablo.discordgamepass.com)
+[![Discord Game Pass](https://i.imgur.com/xBbvDrx.png)](https://diablo.discordgamepass.com)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/DuckHunt-discord/DHV4) 
 [![Website](https://img.shields.io/website?url=https%3A%2F%2Fduckhunt.me)](https://duckhunt.me)
 
