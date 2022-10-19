@@ -163,7 +163,7 @@ class StatisticsCommands(Cog):
         bullets_used = shooting_stats.get('bullets_used', None)
         if bullets_used:
             embed.add_field(name=_("🔫"),
-                            value=_("{bullets} bullets used in a duck killing madness.", bullets=bullets_used,
+                            value=_("{bullets} bullets used devil hunting.", bullets=bullets_used,
                                     target=target))
 
         missed = shooting_stats.get('missed', None)
@@ -190,7 +190,7 @@ class StatisticsCommands(Cog):
         shots_with_duck = shooting_stats.get('shots_with_duck', None)
         if shots_with_duck:
             embed.add_field(name=_("🦆"),
-                            value=_("{shots} shots going towards ducks.", shots=shots_with_duck, target=target))
+                            value=_("{shots} shots going towards demons.", shots=shots_with_duck, target=target))
 
         shots_stopped_by_detector = shooting_stats.get('shots_stopped_by_detector', None)
         if shots_stopped_by_detector:
@@ -200,7 +200,7 @@ class StatisticsCommands(Cog):
 
         shots_without_ducks = shooting_stats.get('shots_without_ducks', None)
         if shots_without_ducks:
-            embed.add_field(name=_("❓"), value=_("{shots} shots without any duck in sight.", shots=shots_without_ducks,
+            embed.add_field(name=_("❓"), value=_("{shots} shots without any demon in sight.", shots=shots_without_ducks,
                                                  target=target))
 
         await ctx.send(embed=embed)
@@ -415,7 +415,7 @@ class StatisticsCommands(Cog):
             return False
 
         elif target.bot:
-            await ctx.reply(_("❌ I'm not sure that {target.mention} can play DuckHunt.", target=target))
+            await ctx.reply(_("❌ I'm not sure that {target.mention} can play Diablo.", target=target))
             return False
 
         elif amount < 10:
@@ -455,7 +455,7 @@ class StatisticsCommands(Cog):
         _, db_receiver = await asyncio.gather(ctx.get_translate_function(), get_player(target, ctx.channel))
 
         if target.bot:
-            await ctx.reply(_("❌ I'm not sure that {target.mention} can play DuckHunt.", target=target))
+            await ctx.reply(_("❌ I'm not sure that {target.mention} can play Diablo.", target=target))
             return False
 
         await db_receiver.edit_experience_with_levelups(ctx, amount)

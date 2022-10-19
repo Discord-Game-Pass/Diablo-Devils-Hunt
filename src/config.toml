@@ -61,7 +61,7 @@ cogs_to_load = ['cogs.error_handling',
 wiki_url = "https://diablo.discordgamepass.com"
 
 [cogs.DuckBoss]
-boss_channel_id = 1031014088010113084
+boss_channel_id = 1030877035146526730
 required_bangs = 40
 role_ping_id = 1031013477969563688
 
