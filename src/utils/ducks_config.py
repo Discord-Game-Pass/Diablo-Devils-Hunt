@@ -46,10 +46,10 @@ DUCKS_EMOJIS = {
 }
 
 normal = {
-    'traces': ["⛧ :: A demon has spawned"],
+    'traces': [":anger: Danger: Moderate"],
     'faces': [],
     'emojis': [DUCKS_EMOJIS['normal']],
-    'shouts': [_("||Lesser Demon|| https://i.imgur.com/wxpu6sa.png")],
+    'shouts': [_("||⛧ Lesser Demon|| https://i.imgur.com/wxpu6sa.png")],
     'bye_shouts': [_("The duck went away."), _("The duck went to another world."),
                    _("The duck didn't have time for this."),
                    _("The duck left."), _("The duck dissipated in space and time."), _("The duck left out of boredom."),
