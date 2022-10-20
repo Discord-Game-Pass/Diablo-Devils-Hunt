@@ -42,14 +42,14 @@ DUCKS_EMOJIS = {
     'plastic': '<a:imp:1032570853830971442>',
     'prof': '<a:imp:1032570853830971442>',
     'super': '<a:imp:1032570853830971442>',
-    'normal': '<a:imp:1032570853830971442>',
+    'normal': '<a:id:1032765112697761792>',
 }
 
 normal = {
-    'traces': ["⛧ :: Lesser Demon"],
+    'traces': ["⛧ :: A demon has spawned"],
     'faces': [],
     'emojis': [DUCKS_EMOJIS['normal']],
-    'shouts': [_("A demon has arisen https://i.imgur.com/wxpu6sa.png")],
+    'shouts': [_("||Lesser Demon|| https://i.imgur.com/wxpu6sa.png")],
     'bye_shouts': [_("The duck went away."), _("The duck went to another world."),
                    _("The duck didn't have time for this."),
                    _("The duck left."), _("The duck dissipated in space and time."), _("The duck left out of boredom."),
