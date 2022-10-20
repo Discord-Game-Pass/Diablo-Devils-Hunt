@@ -3,21 +3,21 @@ def _(s):
 
 
 DUCKS_IMAGES = {
-    'ninja': 'https://i.imgur.com/anU0n2n.png',
+    'ninja': 'https://i.imgur.com/0np2ytE.png',
 
-    'ghost': 'https://i.imgur.com/PtYH8ZS.png',
-    'armored': 'https://i.imgur.com/6NZEJA4.png',
-    'baby': 'https://i.imgur.com/aXKH2G5.png',
-    'normal': 'https://i.imgur.com/xguRiVr.png',
-    'super': 'https://i.imgur.com/Dqp63Il.png',
-    'prof': 'https://i.imgur.com/brN20Xk.png',
-    'mechanical': 'https://i.imgur.com/6T9GVBg.png',
-    'moad': 'https://i.imgur.com/ql15qNO.png',
-    'kamikaze': 'https://i.imgur.com/xB8wJko.png',
-    'golden': 'https://i.imgur.com/f5K9u35.png',
-    'night': 'https://i.imgur.com/FRYiAzC.png',
-    'plastic': 'https://i.imgur.com/FvPwBaE.png',
-    'cartographer': 'https://i.imgur.com/694LgtW.png',
+    'ghost': 'https://i.imgur.com/0np2ytE.png',
+    'armored': 'https://i.imgur.com/0np2ytE.png',
+    'baby': 'https://i.imgur.com/0np2ytE.png',
+    'normal': 'https://i.imgur.com/0np2ytE.png',
+    'super': 'https://i.imgur.com/0np2ytE.png',
+    'prof': 'https://i.imgur.com/0np2ytE.png',
+    'mechanical': 'https://i.imgur.com/0np2ytE.png',
+    'moad': 'https://i.imgur.com/0np2ytE.png',
+    'kamikaze': 'https://i.imgur.com/0np2ytE.png',
+    'golden': 'https://i.imgur.com/0np2ytE.png',
+    'night': 'https://i.imgur.com/0np2ytE.png',
+    'plastic': 'https://i.imgur.com/0np2ytE.png',
+    'cartographer': 'https://i.imgur.com/0np2ytE.png',
 }
 
 DUCKS_EMOJIS = {
@@ -46,7 +46,7 @@ DUCKS_EMOJIS = {
 }
 
 normal = {
-    'traces': ["<a:fire:1032573644188155954>"],
+    'traces': [":fire:"],
     'faces': ["\\_O<", "\\_o<", "\\_Õ<", "\\_õ<", "\\_Ô<", "\\_ô<", "\\_Ö<", "\\_ö<", "\\_Ø<", "\\_ø<", "\\_Ò<",
               "\\_ò<", "\\_Ó<", "\\_ó<", "\\_0<", "\\_©<", "\\_@<", "\\_º<",
               "\\_°<", "\\_^<", "/_O<", "/_o<", "/_Õ<", "/_õ<", "/_Ô<", "/_ô<", "/_Ö<", "/_ö<", "/_Ø<", "/_ø<", "/_Ò<",
