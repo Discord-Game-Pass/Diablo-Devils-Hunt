@@ -3,54 +3,46 @@ def _(s):
 
 
 DUCKS_IMAGES = {
-    'ninja': 'https://media.discordapp.net/attachments/737978240966066177/744488520768421940/image0.png',
+    'ninja': 'https://i.imgur.com/anU0n2n.png',
 
-    'ghost': 'https://cdn.discordapp.com/attachments/795225915248214036/795259576085643284/ghost_duck2_calgeka.png',
-    'armored': 'https://cdn.discordapp.com/attachments/737978240966066177/738378965294645289/armored_duck.png',
-    'baby': 'https://cdn.discordapp.com/attachments/795225915248214036/795259573115289600/baby_duck_calgeka.png',
-    'normal': 'https://cdn.discordapp.com/attachments/795225915248214036/804676034095218698/normal_duck_Calgeka.png',
-    'normal_alt1': 'https://cdn.discordapp.com/attachments/795225915248214036/804671834624229396/normal_duck_Calgeka_Azadelia.png',
-    'normal_alt2': 'https://cdn.discordapp.com/attachments/795225915248214036/804671836998074428/normal_duck_Calgeka_Nausicaa.png',
-    'super': 'https://cdn.discordapp.com/attachments/795225915248214036/795259598247297044/super_duck_calgeka.png',
-    'super_alt1': 'https://cdn.discordapp.com/attachments/795225915248214036/804671999502581770/super_duck_Calgeka_Alunden.png',
-    'prof': 'https://cdn.discordapp.com/attachments/795225915248214036/795259596091949116/prof_duck_calgeka.png',
-    'mechanical': 'https://cdn.discordapp.com/attachments/795225915248214036/795259584528646154/mechanical_duck_calgeka.png',
-    'mechanical_alt1': 'https://cdn.discordapp.com/attachments/795225915248214036/857926338946269214/mechanical_duck_Calgeka_Bliup.png',
-    'moad': 'https://cdn.discordapp.com/attachments/795225915248214036/795259587480780880/mother_of_all_ducks_calgeka.png',
-    'moad_alt1': 'https://cdn.discordapp.com/attachments/795225915248214036/804671584019152922/mother_of_all_ducks_Calgeka_Eleisya.png',
-    'moad_alt2': 'https://cdn.discordapp.com/attachments/795225915248214036/804671604725907466/mother_of_all_ducks_Calgeka_Eleisya_2.png',
-    'kamikaze': 'https://cdn.discordapp.com/attachments/795225915248214036/795259581660004412/kamikaze_duck_calgeka.png',
-    'golden': 'https://cdn.discordapp.com/attachments/795225915248214036/795259578475610112/golden_duck_calgeka.png',
-    'golden_alt1': 'https://cdn.discordapp.com/attachments/795225915248214036/804672092342976522/golden_duck_Calgeka_Alexender.png',
-    'night': 'https://cdn.discordapp.com/attachments/795225915248214036/795259589930778634/night_duck_calgeka.png',
-    'plastic': 'https://cdn.discordapp.com/attachments/795225915248214036/795369328694001664/plastic_duck_Calgeka.png',
-    'plastic_alt1': 'https://cdn.discordapp.com/attachments/795225915248214036/804672096411058237/plastic_duck_Calgeka_Iridius.png',
-    'cartographer': 'https://cdn.discordapp.com/attachments/795225915248214036/998963916984033430/cartographer_duck_Calgeka.png',
+    'ghost': 'https://i.imgur.com/PtYH8ZS.png',
+    'armored': 'https://i.imgur.com/6NZEJA4.png',
+    'baby': 'https://i.imgur.com/aXKH2G5.png',
+    'normal': 'https://i.imgur.com/xguRiVr.png',
+    'super': 'https://i.imgur.com/Dqp63Il.png',
+    'prof': 'https://i.imgur.com/brN20Xk.png',
+    'mechanical': 'https://i.imgur.com/6T9GVBg.png',
+    'moad': 'https://i.imgur.com/ql15qNO.png',
+    'kamikaze': 'https://i.imgur.com/xB8wJko.png',
+    'golden': 'https://i.imgur.com/f5K9u35.png',
+    'night': 'https://i.imgur.com/FRYiAzC.png',
+    'plastic': 'https://i.imgur.com/FvPwBaE.png',
+    'cartographer': 'https://i.imgur.com/694LgtW.png',
 }
 
 DUCKS_EMOJIS = {
-    'walking_duck': '<a:a_Duck_01:439546956986187777>',
-    'ascii_duck': '<a:Duck_ducks:477799859894878208>',
-    'baby_in_egg': '<:BabyDuck_01:439546718263050241>',
-    'plastic_baby': '<:BabyDuck_02:439551472762355724>',
-    'shiny_duck': '<:Golden_Duck:477800276082950145>',
-    'golden_duck': '<:DuckGolden:439393970028806144>',
-    'meh_duck': '<:Duck_Meh:477800274036129793>',
+    'walking_duck': '<a:imp:1032570853830971442>',
+    'ascii_duck': '<a:imp:1032570853830971442>',
+    'baby_in_egg': '<a:imp:1032570853830971442>',
+    'plastic_baby': '<a:imp:1032570853830971442>',
+    'shiny_duck': '<a:imp:1032570853830971442>',
+    'golden_duck': '<a:imp:1032570853830971442>',
+    'meh_duck': '<a:imp:1032570853830971442>',
 
-    'baby_unicode': '🐤',
-    'right_side_duck': '<:official_Duck_01_reversed:439576463436546050>',
+    'baby_unicode': '<a:imp:1032570853830971442>',
+    'right_side_duck': '<a:imp:1032570853830971442>',
 
-    'armored': '<:armored:795261503984238602>',
-    'baby': '<:baby:795261503963529216>',
-    'golden': '<:golden:795261503766921247>',
-    'kamikaze': '<:kamikaze:795261503635980299>',
-    'mechanical': '<:mechanical:795261503691030549>',
-    'moad': '<:moad:795261503863128115>',
-    'night': '<:night:795261503808471050>',
-    'plastic': '<:plastic:795261503870861334>',
-    'prof': '<:prof:795261503778979871>',
-    'super': '<:super:795261503476465695>',
-    'normal': '<:normal:795261503753945099>',
+    'armored': '<a:imp:1032570853830971442>',
+    'baby': '<a:imp:1032570853830971442>',
+    'golden': '<a:imp:1032570853830971442>',
+    'kamikaze': '<a:imp:1032570853830971442>',
+    'mechanical': '<a:imp:1032570853830971442>',
+    'moad': '<a:imp:1032570853830971442>',
+    'night': '<a:imp:1032570853830971442>',
+    'plastic': '<a:imp:1032570853830971442>',
+    'prof': '<a:imp:1032570853830971442>',
+    'super': '<a:imp:1032570853830971442>',
+    'normal': '<a:imp:1032570853830971442>',
 }
 
 normal = {
@@ -157,14 +149,14 @@ baby = {**normal,
 golden = {**normal,
           'shouts': ["€!", "$!", _("£!"), _("Free money !"), _("It's free money")],
           'usernames': [_("Golden Duck"), _("Golden Goose"), _("Shiny Duck"), _("Rich Duck")],
-          'avatar_urls': [DUCKS_IMAGES['golden'], DUCKS_IMAGES['golden_alt1']],
+          'avatar_urls': [DUCKS_IMAGES['golden']],
           'emojis': [DUCKS_EMOJIS['golden']]
           }
 
 plastic = {**normal,
            'shouts': ["€?", "$?", _("£?"), _("Have any money ?"), _("It's paid money")],
            'usernames': [_("Plastic Duck"), _("Poor Duck"), _("Slimey Duck")],
-           'avatar_urls': [DUCKS_IMAGES['plastic'], DUCKS_IMAGES['plastic_alt1']],
+           'avatar_urls': [DUCKS_IMAGES['plastic']],
            'emojis': [DUCKS_EMOJIS['plastic']]
            }
 
@@ -180,7 +172,7 @@ mechanical = {
     **normal,
     'faces': ['%_%', '%>%', "% _ %", '• _ %', '% _ •'],
     'emojis': [DUCKS_EMOJIS['mechanical']],
-    'avatar_urls': [DUCKS_IMAGES['mechanical'], DUCKS_IMAGES['mechanical_alt1']],
+    'avatar_urls': [DUCKS_IMAGES['mechanical']],
     'usernames': normal['usernames'] + [_("Duck 2000"), _("Omega Duck")],
     'shouts': [_("https://i.imgur.com/nDSGvqX.png"), _("https://i.imgur.com/52xt7h0.png"), _("https://i.imgur.com/rOLKY5P.png"), _("https://i.imgur.com/i3KCKeV.png"), _("https://i.imgur.com/EHni4NN.png"), _("https://i.imgur.com/VTp6Snz.png"), _("https://i.imgur.com/hAK1TMv.png")],
 }
@@ -188,14 +180,14 @@ mechanical = {
 super = {
     **normal,
     'usernames': [_("Big Duck"), _("Strong Duck"), _("Heavy Duck")],
-    'avatar_urls': [DUCKS_IMAGES['super'], DUCKS_IMAGES['super_alt1']],
+    'avatar_urls': [DUCKS_IMAGES['super']],
     'emojis': [DUCKS_EMOJIS['super']],
 }
 
 moad = {
     **normal,
     'shouts': [_("**I am your mother...**")],
-    'avatar_urls': [DUCKS_IMAGES['moad'], DUCKS_IMAGES['moad_alt1'], DUCKS_IMAGES['moad_alt2']],
+    'avatar_urls': [DUCKS_IMAGES['moad'], DUCKS_IMAGES['moad_alt1']],
     'emojis': [DUCKS_EMOJIS['moad']],
     'usernames': [_("Ms. Duck"), _("Mom"), _("Mommy"), _("MOAD"), _("Mooooom")],
 }
