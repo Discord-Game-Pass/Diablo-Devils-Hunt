@@ -182,7 +182,7 @@ mechanical = {
     'emojis': [DUCKS_EMOJIS['mechanical']],
     'avatar_urls': [DUCKS_IMAGES['mechanical'], DUCKS_IMAGES['mechanical_alt1']],
     'usernames': normal['usernames'] + [_("Duck 2000"), _("Omega Duck")],
-    'shouts': [_("BZZZZZAAAAK"), _("BZAAAACK"), _("BZAACK")],
+    'shouts': [_("https://i.imgur.com/nDSGvqX.png"), _("https://i.imgur.com/52xt7h0.png"), _("https://i.imgur.com/rOLKY5P.png"), _("https://i.imgur.com/i3KCKeV.png"), _("https://i.imgur.com/EHni4NN.png"), _("https://i.imgur.com/VTp6Snz.png"), _("https://i.imgur.com/hAK1TMv.png")],
 }
 
 super = {
