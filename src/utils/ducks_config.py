@@ -46,7 +46,7 @@ DUCKS_EMOJIS = {
 }
 
 normal = {
-    'traces': ["-,_,.-'`'°-,_,.-'`'°", "-,..,.-'`'°-,_,.-'`'°", "-._..-'`'°-,_,.-'`'°", "-,_,.-'`'°-,_,.-''`"],
+    'traces': ["<a:fire:1032573644188155954>"],
     'faces': ["\\_O<", "\\_o<", "\\_Õ<", "\\_õ<", "\\_Ô<", "\\_ô<", "\\_Ö<", "\\_ö<", "\\_Ø<", "\\_ø<", "\\_Ò<",
               "\\_ò<", "\\_Ó<", "\\_ó<", "\\_0<", "\\_©<", "\\_@<", "\\_º<",
               "\\_°<", "\\_^<", "/_O<", "/_o<", "/_Õ<", "/_õ<", "/_Ô<", "/_ô<", "/_Ö<", "/_ö<", "/_Ø<", "/_ø<", "/_Ò<",
@@ -65,7 +65,7 @@ normal = {
               "/_ó{", "/_0{", "/_©{", "/_@{", "/_^{", "§_O{", "§_o{",
               "§_Õ{", "§_õ{", "§_Ô{", "§_ô{", "§_Ö{", "§_ö{", "§_Ø{", "§_ø{", "§_Ò{", "§_ò{", "§_Ó{", "§_ó{", "§_0{",
               "§_©{", "§_@{", "§_º{", "§_°{", "§_^{"],
-    'emojis': [DUCKS_EMOJIS['normal'], DUCKS_EMOJIS['right_side_duck']],
+    'emojis': [DUCKS_EMOJIS['normal']],
     'shouts': [_("KWAK"), _("KWAK"), _("KWAAK"), _("KWAAK"), _("KWAAAK"), _("KWAAAK"), _("COUAK"), _("COUAK"),
                _("COUAAK"), _("COUAAK"), _("COUAAAK"), _("COUAAAK"), _("QUAK"),
                _("QUAK"), _("QUAAK"), _("QUAAK"), _("QUAAAK"), _("QUAAAK"), _("QUACK"), _("QUACK"), _("QUAACK"),
@@ -115,9 +115,9 @@ normal = {
                    _("The duck went to look for a friend"), _("The duck went to a better place"),
                    _("The duck went to a better party"),
                    _("The duck has some important business to take care of")],
-    'bye_traces': ["·°'`'°-.,¸¸.·°'`"],
+    'bye_traces': ["<a:smiling_imp:1032573268173004851>"],
     'usernames': [_("A duck"), _("Mr. Duck"), _("RealDuck")],
-    'avatar_urls': [DUCKS_IMAGES['normal'], DUCKS_IMAGES['normal_alt1'], DUCKS_IMAGES['normal_alt2']],
+    'avatar_urls': [DUCKS_IMAGES['normal']],
 }
 
 ghost = {
