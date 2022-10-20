@@ -46,7 +46,7 @@ DUCKS_EMOJIS = {
 }
 
 normal = {
-    'traces': ['fire:'],
+    'traces': ['fire`test`'],
     'faces': ["\\_O<", "\\_o<", "\\_Õ<", "\\_õ<", "\\_Ô<", "\\_ô<", "\\_Ö<", "\\_ö<", "\\_Ø<", "\\_ø<", "\\_Ò<",
               "\\_ò<", "\\_Ó<", "\\_ó<", "\\_0<", "\\_©<", "\\_@<", "\\_º<",
               "\\_°<", "\\_^<", "/_O<", "/_o<", "/_Õ<", "/_õ<", "/_Ô<", "/_ô<", "/_Ö<", "/_ö<", "/_Ø<", "/_ø<", "/_Ò<",
@@ -116,7 +116,7 @@ normal = {
                    _("The duck went to a better party"),
                    _("The duck has some important business to take care of")],
     'bye_traces': ["<a:smiling_imp:1032573268173004851>"],
-    'usernames': [_("A duck"), _("Mr. Duck"), _("RealDuck")],
+    'usernames': [_("Azazel"), _("Armaros"), _("Baal"), _('Beelzebub'), _('Baphomet'), _('Banshee'), _('Charun'), _('Demogorgon'), _('Demiurge'), _('Eligos'), _('Furfur'), _('Grigori'), _('Ghoul'), _('Incubus'), _('Haagenti'), _('Kulsheda'), _('Jinn'), _('Hag'), _('Leyak'), _('Leviathan'), _('Legion'), _('Moloch'), _('Murmur'), _('Namtar'), _('Naamah'), _('Oni'), _('Ose'), _('Orcus'), _('Pelesit'), _('Paimon'), _('Preta'), _('Qin'), _('Ruha'), _('Raum'), _('Seir'), _('Surgat'), _('Sut'), _('Samael'), _('El Tio'), _('Ur'), _('Wendigo'), _('Xaphan'), _('Yeqon'), _('Zagan'), _('Zahreil')],
     'avatar_urls': [DUCKS_IMAGES['normal']],
 }
 
