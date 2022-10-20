@@ -128,7 +128,7 @@ ghost = {
     'shouts': [],
     'bye_shouts': [_("The ghost never appeared.")],
     'usernames': [_('Invisible Duck'), _('Ghost Duck'), _('Boooo Duck')],
-    'avatar_urls': [DUCKS_IMAGES['ghost'], ],
+    'avatar_urls': [DUCKS_IMAGES['ghost']],
 }
 
 prof = {**normal,
@@ -187,7 +187,7 @@ super = {
 moad = {
     **normal,
     'shouts': [_("**I am your mother...**")],
-    'avatar_urls': [DUCKS_IMAGES['moad'], DUCKS_IMAGES['moad_alt1']],
+    'avatar_urls': [DUCKS_IMAGES['moad']],
     'emojis': [DUCKS_EMOJIS['moad']],
     'usernames': [_("Ms. Duck"), _("Mom"), _("Mommy"), _("MOAD"), _("Mooooom")],
 }
