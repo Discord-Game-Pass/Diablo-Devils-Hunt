@@ -77,7 +77,7 @@ rpg_role_name = "Hunter License"
 moderators_that_can_delete_with_reactions = [1015526330814697542]
 
 [cogs.PrivateMessagesSupport]
-forwarding_category = 1016854290519834694
+forwarding_category = 1017212647281786880
 
 [cogs.RestAPI]
 listen_ip = "127.0.0.1"
