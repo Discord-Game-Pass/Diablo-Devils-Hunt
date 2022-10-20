@@ -19,7 +19,7 @@ database = ""
 
 [duckhunt_public_log]
 server_id = 1013868971549794415
-channel_id = 1019418685548531772
+channel_id = 1031014591511154738
 
 [auth.discord]
 # Your bot token. You can find it on the Bot page of the Developper portal
@@ -59,7 +59,7 @@ cogs_to_load = ['cogs.error_handling',
 wiki_url = "https://diablo.discordgamepass.com"
 
 [cogs.DuckBoss]
-boss_channel_id = 1030877035146526730
+boss_channel_id = 1031014088010113084
 required_bangs = 40
 role_ping_id = 1031013477969563688
 
