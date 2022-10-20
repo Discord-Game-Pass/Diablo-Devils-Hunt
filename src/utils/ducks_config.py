@@ -46,7 +46,7 @@ DUCKS_EMOJIS = {
 }
 
 normal = {
-    'traces': [":anger: Danger: Moderate"],
+    'traces': [':anger: Danger: Moderate'],
     'faces': [],
     'emojis': [DUCKS_EMOJIS['normal']],
     'shouts': [_("||⛧ Lesser Demon|| https://i.imgur.com/wxpu6sa.png")],
