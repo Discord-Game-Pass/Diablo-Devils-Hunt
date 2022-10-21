@@ -46,7 +46,7 @@ DUCKS_EMOJIS = {
 }
 
 normal = {
-    'traces': [':anger: Danger: Moderate'],
+    'traces': [":anger: Danger: Moderate"],
     'faces': [],
     'emojis': [DUCKS_EMOJIS['normal']],
     'shouts': [_("||⛧ Lesser Demon|| https://i.imgur.com/wxpu6sa.png"),
@@ -110,7 +110,7 @@ ghost = {
 }
 
 prof = {**normal,
-        'traces': [':anger: Danger: Moderate'],
+        'traces': [":anger: Danger: Low :id: Duke of Hell"],
         'shouts': [_("||⛧ Duke of Hell|| https://i.imgur.com/5KelOxD.png"),
                _("||⛧ Duke of Hell|| https://i.imgur.com/SxVhjFn.png"),
                _("||⛧ Duke of Hell|| https://i.imgur.com/hIsNTzh.png"),
