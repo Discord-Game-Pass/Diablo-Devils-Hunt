@@ -110,6 +110,7 @@ ghost = {
 }
 
 prof = {**normal,
+        'traces': [':anger: Danger: Moderate'],
         'shouts': [_("||⛧ Duke of Hell|| https://i.imgur.com/5KelOxD.png"),
                _("||⛧ Duke of Hell|| https://i.imgur.com/SxVhjFn.png"),
                _("||⛧ Duke of Hell|| https://i.imgur.com/hIsNTzh.png"),
